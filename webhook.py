@@ -1,7 +1,7 @@
 import json
 import asyncio
 from aiogram import types
-from bot.bot_instance import bot, dp
+from bot import bot, dp
 
 async def handle(request):
     body = await request.body()
