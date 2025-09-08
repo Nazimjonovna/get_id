@@ -12,7 +12,7 @@ from aiohttp import web
 BOT_TOKEN = "7916797317:AAGr6pdkr17h0V59TVfD35b38JArK6VTzV0"
 WEBHOOK_SECRET = "supersecret123"
 WEBHOOK_PATH = f"/webhook/{WEBHOOK_SECRET}"
-WEBHOOK_URL = f"https://yourdomain.com{WEBHOOK_PATH}"
+WEBHOOK_URL = f"https://get-id-production.up.railway.app/webhook/supersecret123"
 
 # === LOGGING ===
 logging.basicConfig(level=logging.INFO)
