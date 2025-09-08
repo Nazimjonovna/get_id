@@ -1,2 +1,3 @@
-web: python bot_instance.py
+web: python bot.py
+
 
