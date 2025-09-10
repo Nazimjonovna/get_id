@@ -10,7 +10,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.filters import Command
 
 # === CONFIG ===
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7916797317:AAFOz870qXnM8m9YhLZq8gbxNc5U5tXu6gA")
 WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET", "supersecret123")
 BASE_WEBHOOK_URL = os.getenv("WEBHOOK_BASE", "https://get-id-production.up.railway.app")
 WEBHOOK_PATH = f"/webhook/{WEBHOOK_SECRET}"
@@ -76,3 +76,4 @@ def create_app():
 # === MAIN ENTRY ===
 if __name__ == "__main__":
     web.run_app(create_app(), port=PORT)
+
